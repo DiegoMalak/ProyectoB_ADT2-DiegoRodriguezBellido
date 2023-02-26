@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_general">16dp</dimen>
+    <dimen name="txt_size_titulo_filtro">30sp</dimen>
+    <dimen name="margin_rv_consulta">16dp</dimen>
+    <dimen name="margin_btn_ll">5sp</dimen>
+    <dimen name="size_filtro_mes">20sp</dimen>
+    <dimen name="text_size_tv_fijo">16sp</dimen>
+</resources>

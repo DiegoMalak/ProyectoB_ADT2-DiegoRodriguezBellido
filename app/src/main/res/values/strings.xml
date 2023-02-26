@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ProyectoB_ADT2-DiegoRodriguezBellido</string>
+    <string name="txt_btn_filtro">Filtro</string>
+    <string name="txt_tv_filtro_selec">Texto prueba</string>
+    <string name="txt_btn_consulta">Consulta</string>
+    <string name="tv_filtro_mes">Mes:</string>
+    <string name="tv_filtro_anio">Anio:</string>
+    <string name="hint_et_anio">Introduce un anio</string>
+    <string name="tv_filtro_pais">Pais:</string>
+    <string name="title_dialog">Datos del terremoto.</string>
+    <string name="btn_aceptar">Aceptar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="error_anio">"Has introducido un año superior al actual... "</string>
+    <string name="txtSeeTerremoto">Terremoto:</string>
+    <string name="txtSeeMagnitud">Magnitud:</string>
+    <string name="txtSeeMuertos">Muertos:</string>
+    <string name="error_datos">INTRODUCE AÑO CANALLA...</string>
+    <string name="tv_filtro_all">Todos los TERREMOTOS</string>
+</resources>

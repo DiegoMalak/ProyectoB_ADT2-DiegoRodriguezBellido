@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="@dimen/margin_general"
+    >
+
+    <LinearLayout
+        android:id="@+id/llPrincipal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/llPrincipalBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btnFiltro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_btn_filtro"
+                android:layout_weight="1"
+                android:layout_marginRight="@dimen/margin_btn_ll"
+                />
+
+            <Button
+                android:id="@+id/btnConsulta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txt_btn_consulta"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_btn_ll"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvFiltroSelec"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_tv_filtro_selec"
+            android:textSize="@dimen/txt_size_titulo_filtro"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListaConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llPrincipal"
+        android:layout_marginTop="@dimen/margin_rv_consulta"
+        />
+
+</RelativeLayout>
