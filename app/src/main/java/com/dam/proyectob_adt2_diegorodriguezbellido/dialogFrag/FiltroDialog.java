@@ -44,6 +44,7 @@ public class FiltroDialog extends DialogFragment {
         spnMes = v.findViewById(R.id.spFiltroMes);
         etAnio = v.findViewById(R.id.etFiltroAnio);
         spnPais = v.findViewById(R.id.spFiltroPais);
+        // Creamos el PaisesDao para poder coger los paises de la base de datos.
         paisesDao = TerremotosDB.getDatabase(getActivity()).paisesDao();
 
         // CARGAR EN EL SPINNER LOS PAISES DE LA BASE DE DATOS. Con la clase PaisDAO y la clase de la base de datos.

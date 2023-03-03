@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity implements FiltroListener {
                 // Aquí se abre la ventana de dialogo.
                 FiltroDialog fd = new FiltroDialog();
                 // Si se pulsa fuera del diálogo o el botón de volver, no se cierra.
-                //fd.setCancelable(false);
+                fd.setCancelable(false);
                 // Mostramos el diálogo, pasándole el fragment manager.
                 fd.show(getSupportFragmentManager(), "FiltroDialog");
             }
@@ -210,6 +210,7 @@ public class MainActivity extends AppCompatActivity implements FiltroListener {
         // Vamos a rellenar el TextView con el filtro seleccionado.
         // Para ello vamos a controlar que hemos seleccionado dentro del FiltroDialog.
         // Como se puede rellenar hasta con 3 filtros, vamos a controlarlos todos.
+        // LAS COMPROBACIONES SE DAN VACíAS NO NULL.
         //------------------------------------------------------------------------------------------
         // Si no se ha seleccionado nada, se mostrarán todos los datos.
         if (mes == null && anio == null && pais == null) {

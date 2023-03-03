@@ -101,7 +101,8 @@ public class TerremotoAdapter extends RecyclerView.Adapter<TerremotoAdapter.Terr
     public void setDatosTerremoto(ArrayList<Terremoto> datosTerremoto) {
         // Le pasamos los datos del ArrayList de Terremotos.
         this.datosTerremoto = datosTerremoto;
-        // Notificamos que los datos han cambiado.
+        // Notificamos que los datos han cambiado, con este método del sistema y
+        // se actualiza el RecyclerView.
         notifyDataSetChanged();
     }
 
